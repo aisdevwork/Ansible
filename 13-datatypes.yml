@@ -3,21 +3,21 @@
    connection: local
 
    vars:
-    course_name: "DEVOPS WITH AWS"
-    duration: "120hrs"
-    topics:
+     course_name: "DEVOPS WITH AWS"
+     duration: "120hrs"
+     topics:
       - linux
       - shell
       - ansible
       - AWS
-    live: true
+     live: true
 
-    tools:
+     tools:
       CI: Jenkins
       Cloud: AWS
       Contenarisation: Docker
 
-    tasks:
+   tasks:
       - name: Print course information
         ansible.builtin.debug:
           msg: "Hello I am Learning {{course_name}} ,duration {{duration}},topics are  {{topics}}, in it tools covered are: {{tools}}"
