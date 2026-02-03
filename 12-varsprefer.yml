@@ -5,8 +5,8 @@
    vars:
      GREET: "PLAY"
 
-   vars_files:
-     - myvars.yml
+  #  vars_files:
+  #    - myvars.yml
 
    vars_prompt:
      - name: GREET
