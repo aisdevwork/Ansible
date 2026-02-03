@@ -7,9 +7,9 @@
   - name: DURATION
     prompt: Please enter Duration
   - name: TRAINER
-    Prompt: Please enter trainer name
+    prompt: Please enter trainer name
   tasks:
-  - name : Print Course information
+  - name: Print Course information
     ansible.builtin.debug:
       msg: "Course is {{COURSE}} , Duration is {{DURATION}}, Trainer is {{TRAINER}}"
  
