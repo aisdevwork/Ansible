@@ -8,10 +8,10 @@
   #  vars_files:
   #    - myvars.yml
 
-   vars_prompt:
-     - name: GREET
-       prompt: Enter the value
-       private: false
+  #  vars_prompt:
+  #    - name: GREET
+  #      prompt: Enter the value
+  #      private: false
 
    tasks:
       - name: print the variables
